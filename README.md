@@ -1,29 +1,3 @@
-<style>
-table {
-  border-collapse: collapse;
-  width: 100%;
-  text-align: center;
-  font-size: 18px;
-}
-
-thead {
-  border-top: 3px solid black;
-  border-bottom: 2px solid black;
-}
-
-tbody {
-  border-bottom: 3px solid black;
-}
-
-th, td {
-  padding: 8px 16px;
-}
-
-thead tr:first-child th[colspan] {
-  border-bottom: 1px solid black;
-}
-</style>
-
 <table>
   <thead>
     <tr>
@@ -36,11 +10,9 @@ thead tr:first-child th[colspan] {
       <th>CS</th>
       <th>CI</th>
       <th>Ov.</th>
-
       <th>CS</th>
       <th>CI</th>
       <th>Ov.</th>
-
       <th>CS</th>
       <th>CI</th>
       <th>Ov.</th>
@@ -49,18 +21,176 @@ thead tr:first-child th[colspan] {
 
   <tbody>
     <tr>
-      <td>Model A</td>
-      <td>10.2</td>
-      <td>90.1</td>
-      <td>50.3</td>
+      <td colspan="10"><em>Qwen2.5-VL-7B-Instruct</em></td>
+    </tr>
+    <tr>
+      <td>Base</td>
+      <td>13.79</td>
+      <td>39.74</td>
+      <td>27.70</td>
+      <td>8.54</td>
+      <td>31.35</td>
+      <td>20.09</td>
+      <td>0.00</td>
+      <td>28.57</td>
+      <td>14.29</td>
+    </tr>
+    <tr>
+      <td>MCT</td>
+      <td>68.32</td>
+      <td>74.63</td>
+      <td>71.70</td>
+      <td>83.11</td>
+      <td>50.09</td>
+      <td>66.39</td>
+      <td>45.71</td>
+      <td>81.90</td>
+      <td>63.81</td>
+    </tr>
+    <tr>
+      <td>Δ</td>
+      <td>+54.53</td>
+      <td>+34.89</td>
+      <td>+44.00</td>
+      <td>+74.57</td>
+      <td>+18.74</td>
+      <td>+46.30</td>
+      <td>+45.71</td>
+      <td>+53.33</td>
+      <td>+49.52</td>
+    </tr>
 
-      <td>12.5</td>
-      <td>88.7</td>
-      <td>52.1</td>
+    <tr>
+      <td colspan="10"><em>Qwen3-VL-8B-Instruct</em></td>
+    </tr>
+    <tr>
+      <td>Base</td>
+      <td>11.21</td>
+      <td>83.02</td>
+      <td>49.70</td>
+      <td>13.23</td>
+      <td>53.47</td>
+      <td>33.61</td>
+      <td>3.81</td>
+      <td>90.95</td>
+      <td>47.38</td>
+    </tr>
+    <tr>
+      <td>MCT</td>
+      <td>69.40</td>
+      <td>69.22</td>
+      <td>69.30</td>
+      <td>72.51</td>
+      <td>61.88</td>
+      <td>67.13</td>
+      <td>32.38</td>
+      <td>80.95</td>
+      <td>56.67</td>
+    </tr>
+    <tr>
+      <td>Δ</td>
+      <td>+58.19</td>
+      <td>-13.80</td>
+      <td>+19.60</td>
+      <td>+59.28</td>
+      <td>+8.41</td>
+      <td>+33.52</td>
+      <td>+28.57</td>
+      <td>-10.00</td>
+      <td>+9.29</td>
+    </tr>
 
-      <td>8.9</td>
-      <td>91.4</td>
-      <td>49.8</td>
+    <tr>
+      <td colspan="10"><em>InternVL-3.5-8B</em></td>
+    </tr>
+    <tr>
+      <td>Base</td>
+      <td>16.81</td>
+      <td>70.15</td>
+      <td>45.40</td>
+      <td>9.85</td>
+      <td>41.04</td>
+      <td>25.65</td>
+      <td>14.76</td>
+      <td>38.10</td>
+      <td>26.43</td>
+    </tr>
+    <tr>
+      <td>MCT</td>
+      <td>36.64</td>
+      <td>72.57</td>
+      <td>55.90</td>
+      <td>67.45</td>
+      <td>62.07</td>
+      <td>64.72</td>
+      <td>36.19</td>
+      <td>75.24</td>
+      <td>55.71</td>
+    </tr>
+    <tr>
+      <td>Δ</td>
+      <td>+19.83</td>
+      <td>+2.42</td>
+      <td>+10.50</td>
+      <td>+57.60</td>
+      <td>+21.03</td>
+      <td>+39.07</td>
+      <td>+21.43</td>
+      <td>+37.14</td>
+      <td>+29.28</td>
+    </tr>
+
+    <tr>
+      <td colspan="10"><em>LLaVA-OneVision-1.5-8B-Instruct</em></td>
+    </tr>
+    <tr>
+      <td>Base</td>
+      <td>15.95</td>
+      <td>38.81</td>
+      <td>28.20</td>
+      <td>7.50</td>
+      <td>29.43</td>
+      <td>18.61</td>
+      <td>17.14</td>
+      <td>50.95</td>
+      <td>34.05</td>
+    </tr>
+    <tr>
+      <td>MCT</td>
+      <td>56.25</td>
+      <td>71.93</td>
+      <td>64.60</td>
+      <td>80.58</td>
+      <td>48.99</td>
+      <td>64.58</td>
+      <td>29.05</td>
+      <td>87.62</td>
+      <td>58.33</td>
+    </tr>
+    <tr>
+      <td>Δ</td>
+      <td>+40.30</td>
+      <td>+33.12</td>
+      <td>+36.40</td>
+      <td>+73.08</td>
+      <td>+19.56</td>
+      <td>+45.97</td>
+      <td>+11.91</td>
+      <td>+36.67</td>
+      <td>+24.28</td>
+    </tr>
+
+    <tr>
+      <td>avg(Δ)</td>
+      <td>+43.21</td>
+      <td>+14.16</td>
+      <td>+27.63</td>
+      <td>+66.13</td>
+      <td>+16.94</td>
+      <td>+41.22</td>
+      <td>+26.91</td>
+      <td>+29.29</td>
+      <td>+28.10</td>
     </tr>
   </tbody>
 </table>
