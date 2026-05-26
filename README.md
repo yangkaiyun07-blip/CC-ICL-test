@@ -21,7 +21,7 @@
 
   <tbody>
     <tr>
-      <td colspan="10" style="text-align: center;"><em>Qwen2.5-VL-7B-Instruct</em></td>
+      <td colspan="10" align="center"><em>Qwen2.5-VL-7B-Instruct</em></td>
     </tr>
     <tr>
       <td>Base</td>
