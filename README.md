@@ -60,7 +60,7 @@
       <td>+49.52</td>
     </tr>
     <tr>
-      <td colspan="10" style="text-align: center;"><em>Qwen3-VL-8B-Instruct</em></td>
+      <td colspan="10" align="center"><em>Qwen3-VL-8B-Instruct</em></td>
     </tr>
     <tr>
       <td>Base</td>
@@ -99,7 +99,7 @@
       <td>+9.29</td>
     </tr>
     <tr>
-      <td colspan="10" style="text-align: center;"><em>InternVL-3.5-8B</em></td>
+      <td colspan="10" align="center"><em>InternVL-3.5-8B</em></td>
     </tr>
     <tr>
       <td>Base</td>
@@ -138,7 +138,7 @@
       <td>+29.28</td>
     </tr>
     <tr>
-      <td colspan="10" style="text-align: center;"><em>LLaVA-OneVision-1.5-8B-Instruct</em></td>
+      <td colspan="10" align="center"><em>LLaVA-OneVision-1.5-8B-Instruct</em></td>
     </tr>
     <tr>
       <td>Base</td>
