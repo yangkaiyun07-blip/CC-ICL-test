@@ -49,7 +49,7 @@
     </tr>
     <tr>
       <td>Δ</td>
-      <td>+54.53</td>
+      <td><span style="color: green;">+54.53</span></td>
       <td>+34.89</td>
       <td>+44.00</td>
       <td>+74.57</td>
