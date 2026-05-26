@@ -59,7 +59,6 @@
       <td>+53.33</td>
       <td>+49.52</td>
     </tr>
-
     <tr>
       <td colspan="10"><em>Qwen3-VL-8B-Instruct</em></td>
     </tr>
@@ -99,7 +98,6 @@
       <td>-10.00</td>
       <td>+9.29</td>
     </tr>
-
     <tr>
       <td colspan="10"><em>InternVL-3.5-8B</em></td>
     </tr>
@@ -139,7 +137,6 @@
       <td>+37.14</td>
       <td>+29.28</td>
     </tr>
-
     <tr>
       <td colspan="10"><em>LLaVA-OneVision-1.5-8B-Instruct</em></td>
     </tr>
@@ -179,7 +176,6 @@
       <td>+36.67</td>
       <td>+24.28</td>
     </tr>
-
     <tr>
       <td>avg(Δ)</td>
       <td>+43.21</td>
