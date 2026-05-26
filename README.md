@@ -49,9 +49,7 @@
     </tr>
     <tr>
       <td>Δ</td>
-      <td>
-        <img src="https://img.shields.io/badge/%2B54.53-green" alt="+54.53">
-      </td>
+      <td>+54.53</td>
       <td>+34.89</td>
       <td>+44.00</td>
       <td>+74.57</td>
